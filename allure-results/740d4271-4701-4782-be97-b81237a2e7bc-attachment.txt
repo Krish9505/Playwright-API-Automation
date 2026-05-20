@@ -1,0 +1,45 @@
+{
+  respcode: '200',
+  respdesc: 'success',
+  docnamelist: [
+    { docid: 6, docname: 'NIC Recto', isrequired: 0, status: 1 },
+    { docid: 7, docname: 'NIC Verso', isrequired: 0, status: 1 },
+    { docid: 8, docname: 'Passport', isrequired: 0, status: 1 },
+    {
+      docid: 9,
+      docname: 'ID Landlord Recto',
+      isrequired: 0,
+      status: 1
+    },
+    {
+      docid: 10,
+      docname: 'ID Landlord Verso',
+      isrequired: 0,
+      status: 1
+    },
+    {
+      docid: 11,
+      docname: 'Residence Permit',
+      isrequired: 0,
+      status: 1
+    },
+    { docid: 12, docname: 'Work Permit', isrequired: 0, status: 1 },
+    {
+      docid: 13,
+      docname: 'Occupation Permit',
+      isrequired: 0,
+      status: 1
+    },
+    { docid: 14, docname: 'Bank Details ', isrequired: 0, status: 1 },
+    { docid: 15, docname: 'Income', isrequired: 0, status: 1 },
+    { docid: 16, docname: 'Others', isrequired: 0, status: 1 }
+  ],
+  doctypeslist: [
+    { dtid: 2, doctype: 'Photocopy', status: 1 },
+    { dtid: 3, doctype: 'Certified Copy', status: 1 },
+    { dtid: 4, doctype: 'Original ID', status: 1 },
+    { dtid: 19, doctype: 'Original Sighted', status: 1 },
+    { dtid: 20, doctype: 'ID verification', status: 1 },
+    { dtid: 21, doctype: 'Electronic Copy', status: 1 }
+  ]
+}

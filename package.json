@@ -1,0 +1,25 @@
+{
+  "name": "playwright-api-automation",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "test": "npx playwright test",
+    "test:api": "npx playwright test tests/api",
+    "test:allure": "npx playwright test --reporter=list --reporter=allure-playwright",
+    "allure:generate": "allure generate allure-results -o allure-report --clean",
+    "allure:open": "allure open allure-report",
+    "allure:report": "npm run test:allure && npm run allure:generate && npm run allure:open",
+    "allure:clean": "rimraf allure-results allure-report",
+    "allure:fresh": "rmdir /s /q allure-results && rmdir /s /q allure-report && npx playwright test --reporter=allure-playwright && allure generate allure-results --clean -o allure-report && allure open allure-report",
+    "playwright": "npx playwright"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "allure-commandline": "^2.41.0",
+    "allure-playwright": "^3.8.0",
+    "dotenv": "^17.4.2"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}
