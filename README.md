@@ -4,7 +4,7 @@
 
 ---
 
-## SECTION 1: FOUNDATIONAL CONCEPTS
+## SECTION 1: FOUNDATIONAL CONCEPT
 
 ### 1. Explain the architecture of Playwright and how it differs from Selenium.
 - Playwright uses a single unified API for Chromium, Firefox, and WebKit
