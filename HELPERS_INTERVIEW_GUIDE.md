@@ -14,7 +14,7 @@ helpers/
 
 ---
 
-## 1️⃣ API HELPER (apiHelper.js)
+## 1️⃣ API HELPER
 
 ### **Purpose**
 Lightweight utility functions for basic API response handling, data extraction, and validation. This is the foundation for all test assertions.
