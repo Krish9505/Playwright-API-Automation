@@ -8,10 +8,16 @@ pipeline {
 
     stages {
 
-        stage('Checkout') {
+        stage('Verify Workspace') {
             steps {
-              
-              echo 'checking from SCM'
+                bat 'dir'
+            }
+        }
+
+        stage('Verify Node') {
+            steps {
+                bat 'node -v'
+                bat 'npm -v'
             }
         }
 
