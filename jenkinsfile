@@ -10,8 +10,8 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git branch: 'main',
-                url: 'https://github.com/Krish9505/Playwright-API-Automation.git'
+              
+              echo 'checking from SCM'
             }
         }
 
